@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //switch-case
+        //adega de bebidas
+
+        alert(`
+          Bem vindo a minha adega, escolha uma opção:
+          1-Coca-cola
+          2-Fanta-Uva
+          3-Cachaça
+          4-Cantinho
+          5-Cerveja
+          6-Corrote
+        `)
+
+        //entrada de dados
+
+        const opcaoUsuario = Number(prompt("Qual opção de bebida você deseja escolher"))
+
+        //processamento
+
+        switch (opcaoUsuario) {//1 2 3 4 5 6
+            case 1:
+
+                //saida de dados
+
+                alert ("a opção que o usuario informou é Coca-cola")
+
+                
+                let repostaUser =prompt ("Voce deseja acrescentar gelo ou limão?")
+                
+                
+                //ternário
+                
+                respostaUser == " sim " ? alert("A sua bebida terá gelo e limão") : alert("ok , sem gelo e sem limão")
+                break;
+
+            case 2:
+
+                //saida de dados
+
+                alert ("a opção que o usuario informou é Fanta Uva")
+
+                break; 
+                 
+            case 3:
+
+                //saida de dados
+
+                alert ("a opção que o usuario informou é Cachaça")
+
+                break;      
+        
+
+                case 4:
+
+                //saida de dados
+
+                alert ("a opção que o usuario informou é Cantinho")
+
+                break;
+                case 5:
+
+                //saida de dados
+
+                alert ("a opção que o usuario informou é Cerveja")
+
+                break; 
+                case 6:
+
+                //saida de dados
+
+                alert ("a opção que o usuario informou é Corrote")
+
+                break;   
+            default:
+                break;              
+        }
+    </script>
+    
+</body>
+</html>

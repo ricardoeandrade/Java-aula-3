@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("olá, mundo!")
+
+        const valor= "valor vindo do usuario"
+        // prompt("informe seu nome")
+
+        //falar sobre outras mensagens que a window 
+
+        //confirm("Você deseja enviar os dados?")
+
+        //alert("olá mundo")
+
+        //entrada de dados
+
+        const nome = prompt("informe seu nome:");
+        const sobrenome = prompt("informe seu sobrenome:");
+        const anoNascimentoPessoa = prompt("informe o ano de seu nascimento");
+        let anoAtual = 2023
+        let idadePessoa;
+
+
+        //processamento
+        //informe o ano de nascimento e em seguida mostrar a idade da pessoa
+        idadePessoa = anoAtual - anoNascimentoPessoa  
+
+        alert(idadePessoa)
+
+        //
+        //saida de dados
+
+        //concatenar
+        console.log( "o nome da pessoa é: " + nome + "e o sobrenome é: "+  sobrenome);
+
+        //interpolar
+        alert(` o nome da pessoa é:" ${nome} e o sobrenome é: ${sobrenome} e a idade das pessoa é: ${idadePessoa}`);
+
+
+        console.log(idadePessoa)
+    </script>
+
+        
+    
+    
+</body>
+</html>
